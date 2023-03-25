@@ -10,7 +10,7 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions
 (
-		features= {"C:\\Users\\HP\\git\\TestProject\\MavenProject\\Feature"},
+		features= {".//Feature/"},
 		glue="stepDefinitions",
 		dryRun=true,
 		monochrome=true,
