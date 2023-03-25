@@ -10,7 +10,7 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions
 (
-		features= {".//Feature/"},
+		features= {"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"},
 		glue="stepDefinitions",
 		dryRun=true,
 		monochrome=true,
